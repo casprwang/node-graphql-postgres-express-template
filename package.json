@@ -1,0 +1,19 @@
+{
+  "name": "graphql-postgres-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel . --out-dir lib --ignore node_modules && node ./lib/index.js",
+    "dev": "nodemon -w ./ --exec 'NODE_ENV=development babel-node index.js'"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "graphql": "^0.11.1",
+    "graphql-tools": "^1.2.1"
+  }
+}
