@@ -16,5 +16,3 @@ db.sequelize = sequelize
 
 
 export default db
-
-
