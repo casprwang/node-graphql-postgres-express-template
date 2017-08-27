@@ -1,6 +1,6 @@
 import app from './server'
 
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 
 global.db.sequelize.sync().then(() =>
   app.listen(PORT, err => {
