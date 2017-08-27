@@ -13,4 +13,8 @@ const db = {
 
 db.sequelize = sequelize
 
+
+
 export default db
+
+
